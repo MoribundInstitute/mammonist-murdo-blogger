@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+    <title><$BlogTitle$></title>
+    
+    <!-- Meta Description -->
+    <BlogMetaDescription>
+    <meta content='<$BlogMetaDescription$>' name='description'/>
+    </BlogMetaDescription>
+    <BlogMetaDescriptionNoData>
+    <meta content='Welcome to Wandering Wikis—a project dedicated to making encyclopedias fun and engaging. Explore knowledge with MoribundMurdoch through lively discussions, creative presentations, and in-depth walkthroughs.' name='description'/>
+    </BlogMetaDescriptionNoData>
+
+    <!-- SEO Meta Tags -->
+    <meta content='index, follow' name='robots'/>
+    <meta content='blog, wiki, Blogger, custom template, SEO, Moribund Institute, Finitude Fighters, WanderingWikis, MoribundMurdoch' name='keywords'/>
+    <meta content='MoribundMurdoch' name='author'/>
+    <meta content='Moribund Institute' name='publisher'/>
+    <meta content='Finitude Fighters' name='organization'/>
+    <meta content='EE, TW' name='geo.region'/>
+    <meta content='Estonia, Taiwan' name='geo.placename'/>
+    <meta content='59.437,24.753; 23.6978,120.9605' name='geo.position'/>
+    <meta content='59.437,24.753; 23.6978,120.9605' name='ICBM'/>
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta expr:content='<$BlogTitle$>' property='og:title'/>
+    <meta content='website' property='og:type'/>
+    <meta expr:content='<$BlogURL$>' property='og:url'/>
+    <meta expr:content='<$BlogHeaderImage$>' property='og:image'/>
+    <meta content='WanderingWikis - Fun exploration of encyclopedias' property='og:image:alt'/>
+    <meta content='WanderingWikis' property='og:site_name'/>
+    <meta content='en_US' property='og:locale'/>
+    <meta expr:content='<$BlogMetaDescription$>' property='og:description'/>
+
+    <!-- Dynamic Open Graph Tags for Blog Posts -->
+    <ItemPage>
+    <meta expr:content='<$BlogPostTitle$>' property='og:title'/>
+    <meta expr:content='<$BlogPostSnippet$>' property='og:description'/>
+    <meta expr:content='<$BlogPostImageUrl$>' property='og:image'/>
+    <meta expr:content='<$BlogPostUrl$>' property='og:url'/>
+    <meta content='article' property='og:type'/>
+    <meta content='MoribundMurdoch' property='article:author'/>
+    <meta expr:content='<$BlogPostDateISO8601$>' property='article:published_time'/>
+    <meta expr:content='<$BlogPostLabels$>' property='article:section'/>
+    </ItemPage>
+
+    <!-- Twitter Card Meta Tags -->
+    <meta content='summary_large_image' name='twitter:card'/>
+    <meta expr:content='<$BlogTitle$>' name='twitter:title'/>
+    <meta expr:content='<$BlogMetaDescription$>' name='twitter:description'/>
+    <meta expr:content='<$BlogHeaderImage$>' name='twitter:image'/>
+    <meta content='@WanderingWikis' name='twitter:site'/>
+    <meta content='@WanderingWikis' name='twitter:creator'/>
+    <meta content='https://pbs.twimg.com/profile_banners/1389364887151943680/1628496425/1500x500' name='twitter:header_image'/>
+    <meta content='https://pbs.twimg.com/profile_images/1424643379598610434/EBWtqrVr_400x400.jpg' name='twitter:profile_image'/>
+    <meta content='Join the Wikipedia Memorists on the Wikipedia front opposing Wikipedia Oblivescence!' name='twitter:description'/>
+
+    <!-- External Stylesheets -->
+    <link href='https://fonts.googleapis.com/css2?family=IM+Fell+English&amp;display=swap' rel='stylesheet'/>
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'/>
+    <link href='https://example.com/wiki-custom-stylesheet.css' rel='stylesheet'/>
+
+    <!-- Favicon -->
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEirS8EZyr0fB8T9_J_CgAqHSvo45LzuQo3ORhTDDDXDnghClftm8yKU-cd5nhCanmF1IHUFUDSriW0_yB5EsVFe6A2rw5kWiT9xKW3L1NpFDOVOHA9Bg_upUXQW2yGCa9nonas6Tq_xHXZdNmnwLB6CfHPpI4AKIEtHsm6kM5fJ687hSxs3xzAy1zov' rel='icon' sizes='32x32' type='image/png'/>
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEiXtxR9FEMNUKki91kuYeTBLtvMQiR4pL9gA85pF0jMheNzJ8y65pwYPfWKOvZkIAiT4LUkBIFole8OWXZi8UMOUSRJkh3S0DQfl9CpPaoURE9kW8VtW1Rm6iisyWYGh-nyHkjk8dim0tR8gauiJQr4i_PQuFO6IbZ4cv2ROTAoDrPkaYX1vMuyFz31' rel='icon' sizes='16x16' type='image/png'/>
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEhliyPHSG70AIyZC-8u4RQl1KAa_o_nhOQzBZh44Hxy03WcZalgOZ9jF2r1H5cwXAl62v6rZr0cJ28N27csRqs3ID_HxW2-b9MSO44QKoIlRyRuW-nQ0DjeOqxJzmMuqXhFGHugMd-CmoTRMaCsXmwHQ3ik7_zA990w-DSOw8KvTjRCTAneK13ZqO_h' rel='icon' sizes='150x150' type='image/png'/>
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEhvfWUTfiau0iN_pBNObcHuaSoj36TncONNlWrj41WantKm84qGAcmGIjfk-QsjjQGV9C59aVRzyikmJYIlCKFnzVRkDfhT-pXKLfduf1j2aevpcO-VU0HLIOuo-VR_fCTCgUwLvByrqyYRqWIe4eGarDoc1_7N_5FCWxKm5Bwu91Y2Vo57oziVwR1p' rel='apple-touch-icon' sizes='180x180'/>
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEhb1jrsME2RHftF_L-yeA2VJg0XUWu36QTq9udGzS5ZovgL-heivERdQO8Gjc3O5gGa3AAysnx4yU4ZQSa6_rkw3Jj3L8pE-BqkvxMzuhDIBJ6Y9sstBIQ3-8uiRNly-i-trv90sA0QvcUUdnvGOsyBQlJMIYHmz4ZYgZttoxAymMo4htxgTIcOymiX' rel='apple-touch-icon' sizes='152x152'/>
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEjLexShxDJt4-aAyBa8_vUIF3JCP33FXWcWEmF8pgYcds_PEsSadZgpGoezZMi-eDn8k9SBaqSgOcMOxvhlrcmGOXC5IkEE8RRytoFvf5Rksy1JAaNoD2atjQjTz2ssI9V7wthL9rQYTn_D6u5C4NV_Ts7bLPc3eUC0bFmnfmEgqAjnLKKfP8tNPlXE' rel='apple-touch-icon' sizes='144x144'/>
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEgLwXSAwJzzwcrBL5A04enhzJCvInakwVrbJNGlaX2piZP9YYzrVkABIlftVyKxap-HqHetIYfQrKhghmRVg7Ra6ScYLJbZvN-x1V7tQbM9Lx59BpYpQEZiJfLu0uBZm0UX7vSJIVP6_UtcLYxt81kyJ3QNeVcgCGY-hpJPnuXF18RsCE6z9sTnh67G' rel='icon' sizes='96x96' type='image/png'/>
+
+    <!-- Blogger Skin (CSS) -->
+   
+</head>
+  <title><$BlogPageTitle$></title>
+
+  <$BlogMetaData$>
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Rounders
+Date:     27 Feb 2004
+----------------------------------------------- */
+
+/* Blog Header */
+/* Variables */
+  body {
+  background-color: #131314;
+}  
+    :root {
+  /* Colors */
+  --color-header-background: #212121;
+  --color-background: #292929;
+  --color-primary: #222327;
+  --color-secondary: #03DAC6;
+  --color-on-background: #E1E1E1;
+  --color-on-surface: #FFFFFF;
+  --color-heading: #FFFFFF;
+  --color-link: #03DAC6;
+  --color-link-hover: #018786;
+
+  /* Existing variables */
+  --header-height: 60px;
+  --header-bg-color: var(--color-header-background);
+  --header-text-color: var(--color-on-surface);
+  --color-search-default: var(--color-primary);
+  --color-search-hover: #050505;
+  --color-search-glow: rgba(236, 236, 235, 0.6);
+  
+    /* Layout specific variables */
+  --main-container-width: 1400px;
+  --sidebar-width: 370px;
+  --content-padding: 20px;
+  --content-margin: 15px;
+
+  /* New variables */
+  --color-text: var(--color-on-background);
+  --color-border: #3A3A3A;
+  --color-input-background: #3A3A3A;
+  --color-input-text: var(--color-on-background);
+  --color-button: var(--color-secondary);
+  --color-button-text: var(--color-primary);
+  --color-card-background: var(--color-primary);
+  
+  /* Typography */
+  --font-family-main: 'Trebuchet MS', Verdana, Arial, Sans-serif;
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-large: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  
+  /* Border Radius */
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 12px;
+  
+  /* Transitions */
+  --transition-speed: 0.3s;
+  
+  /* Shadows */
+  --shadow-small: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-large: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+body {
+  background-color: #131314 !important; /* Dark background color */
+  margin: 0 !important;
+  padding: 20px 10px !important;
+  text-align: center !important;
+  font: x-small/1.5em "Trebuchet MS", Verdana, Arial, Sans-serif !important;
+  color: #ECECEB !important; /* Light text color */
+  font-size: small !important;
+  padding-top: calc(var(--header-height) + 20px) !important; /* Adjust for fixed header */
+}
+
+/* Page Structure
+----------------------------------------------- */
+/* The images which help create rounded corners depend on the 
+   following widths and measurements. If you want to change 
+   these measurements, the images will also need to change.
+   */
+html, body {
+  height: auto !important;
+  min-height: 100% !important;
+  overflow-y: auto !important;
+}
+
+@media all {
+  #content {
+    width: 100% !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    text-align: left !important;
+    overflow: hidden !important;
+  }
+
+  #main, #sidebar {
+    padding: 20px !important;
+    background-color: #131314 !important;
+    color: #ECECEB !important;
+    font-size: 97% !important;
+    line-height: 1.5em !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+    box-sizing: border-box !important;
+    margin-top: 15px !important;
+  }
+
+  #main {
+    width: calc(100% - 300px) !important;
+    max-width: 1100px !important;
+    float: left !important;
+  }
+
+  #sidebar {
+    width: 280px !important;
+    margin-left: 20px !important;
+    float: right !important;
+  }
+}
+
+/* For smaller screens, stack the layout vertically */
+@media (max-width: 768px) {
+  #main, #sidebar {
+    width: 100% !important;
+    float: none !important;
+    margin-left: 0 !important;
+  }
+/* Links
+----------------------------------------------- */
+a:link {
+  color: #258;
+}
+a:visited {
+  color: #666;
+}
+a:hover {
+  color: #c63;
+}
+a img {
+  border-width: 0;
+}
+
+/* Blog Header
+----------------------------------------------- */
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--header-bg-color);
+  margin: 0;
+  padding: 0;
+  color: var(--header-text-color);
+  height: var(--header-height);
+}
+
+.header-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.left-section {
+  flex: 0 0 auto; /* Don't grow, don't shrink, auto basis */
+}
+
+.logo-container img {
+  height: 40px; /* Adjust as needed */
+  width: auto;
+}
+
+/* Center Section: Search Bar */
+.center-section {
+  flex: 1 1 auto; /* Can grow and shrink, auto basis */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; /* Add some padding on the sides */
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  height: 40px;
+  position: relative;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
+}
+.search-bar:hover,
+.search-bar:focus-within {
+  box-shadow: 0 0 2px 2px var(--color-search-glow);
+}
+
+.search-bar form {
+  display: flex;
+  background-color: var(--color-search-default);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0 15px;
+  border: none;
+  background: transparent;
+  color: var(--color-on-background);
+  outline: none;
+}
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-on-surface);
+}
+.search-bar:hover form,
+.search-bar:focus-within form {
+  background-color: var(--color-search-hover);
+}
+right-section {
+  flex: 0 0 auto; /* Don't grow, don't shrink, auto basis */
+  display: flex;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.nav-menu li {
+  margin-left: 15px; /* Changed from margin-right to margin-left */
+}
+.nav-menu a {
+  text-decoration: none;
+  color: var(--header-text-color);
+}
+#hamburger-menu {
+  display: none; /* Hide hamburger menu by default */
+  background: none;
+  border: none;
+  color: var(--header-text-color);
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 15px; /* Add some space to the left of the hamburger menu */
+}
+@media (max-width: 768px) {
+  .header-content {
+    flex-wrap: wrap;
+  }
+  .left-section, .right-section {
+    flex: 1 0 50%; /* Each takes up half the width on small screens */
+  }
+  .center-section {
+    order: 3;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .search-bar {
+    width: 100%;
+  }
+  .nav-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: block;
+  }
+/* Posts
+----------------------------------------------- */
+#main {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.date-header {
+    margin: 0 0 10px;
+    font-size: 85%;
+    line-height: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #ECECEB;
+}
+
+.post {
+    margin: 0 0 25px;
+    padding: 0;
+    border: none;
+}
+
+.post-title {
+    margin: 0 0 10px;
+    font-size: 135%;
+    line-height: 1.5em;
+    padding: 5px 0;
+    color: #ECECEB;
+    border-bottom: 1px solid #bbb;
+}
+
+a.title-link, .post-title strong {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+a.title-link:hover {
+    background-color: #ded;
+    color: #000;
+}
+
+.post-body {
+    padding: 10px 0;
+    border: none;
+    box-shadow: none;
+}
+
+.post p {
+    margin: 0 0 .75em;
+}
+
+p.post-footer {
+    background: #ded;
+    margin: 10px 0 0;
+    padding: 10px;
+    border: 1px solid #bbb;
+    font-size: 90%;
+    line-height: 1.5em;
+    color: #ECECEB;
+}
+
+p.post-footer em {
+    display: inline-block;
+    float: left;
+    font-style: normal;
+}
+
+a.comment-link {
+    background: url("https://resources.blogblog.com/blogblog/data/rounders/icon_comment.gif") no-repeat 0 45%;
+    padding-left: 14px;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+blockquote {
+    margin: .75em 0;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    padding: 15px;
+    color: #ECECEB;
+    background: #f9f9f9;
+}
+
+.post blockquote p {
+    margin: .5em 0;
+}
+
+/* Comments
+----------------------------------------------- */
+#comments {
+    margin: 25px 0 0;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+#comments h4 {
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 120%;
+    line-height: 1.4em;
+    color: #333;
+}
+
+#comments-block {
+    margin: 0;
+}
+
+.comment-data {
+    background: url("https://resources.blogblog.com/blogblog/data/rounders/icon_comment.gif") no-repeat 0 .3em;
+    margin: .5em 0;
+    padding: 0 0 0 20px;
+    color: #666;
+}
+
+.comment-poster {
+    font-weight: bold;
+}
+
+.comment-body {
+    margin: 0 0 1.25em;
+    padding: 0 0 0 20px;
+}
+
+.comment-body p {
+    margin: 0 0 .5em;
+}
+
+.comment-timestamp {
+    margin: 0 0 .5em;
+    padding: 0 0 .75em 20px;
+    color: #666;
+}
+
+.comment-timestamp a:link {
+    color: #666;
+}
+
+.deleted-comment {
+    font-style: italic;
+    color: gray;
+}
+
+.paging-control-container {
+    text-align: right;
+    margin: 10px 0;
+    font-size: 80%;
+}
+
+.unneeded-paging-control {
+    display: none;
+}
+
+/* Sidebar Boxes
+----------------------------------------------- */
+@media all {
+  .box {
+    background-color: #fff !important;
+    margin: 0 0 20px !important; /* Increased bottom margin for separation */
+    padding: 15px !important;
+    color: #666 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; /* Stronger shadow for the whole box */
+  }
+  .box2 {
+    padding: 0 13px 8px !important;
+  }
+}
+@media handheld {
+  .box {
+    background: #fff !important;
+  }
+  .box2 {
+    background: none !important;
+  }
+}
+.sidebar-title {
+  margin: 0 0 15px !important; /* Added bottom margin */
+  padding: 0 0 10px !important;
+  font-size: 115% !important;
+  line-height: 1.5em !important;
+  color: #333 !important;
+  border-bottom: none !important; /* Removed dotted border */
+  box-shadow: 0 2px 3px -3px rgba(0,0,0,0.1) !important; /* Subtle shadow instead of border */
+}
+.box ul {
+  margin: .5em 0 1.25em !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+.box ul li {
+  background: url("https://resources.blogblog.com/blogblog/data/rounders/icon_arrow_sm.gif") no-repeat 2px .25em !important;
+  margin: 0 !important;
+  padding: 8px 0 8px 16px !important; /* Increased vertical padding */
+  border-bottom: none !important; /* Removed dotted border */
+  line-height: 1.4em !important;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05) !important; /* Subtle shadow for separation */
+}
+.box ul li:last-child {
+  box-shadow: none !important; /* Remove shadow from last item */
+}
+.box p {
+  margin: 0 0 .6em !important;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+  clear:both;
+  margin:0;
+  padding:15px 0 0;
+  }
+@media all {
+  #footer div {
+    background:#456 url("https://resources.blogblog.com/blogblog/data/rounders/corners_cap_top.gif") no-repeat left top;
+    padding:8px 0 0;
+    color:#fff;
+    }
+  #footer div div {
+    background:url("https://resources.blogblog.com/blogblog/data/rounders/corners_cap_bot.gif") no-repeat left bottom;
+    padding:0 15px 8px;
+    }
+  }
+@media handheld {
+  #footer div {
+    background:#456;
+    }
+  #footer div div {
+    background:none;
+    }
+  }
+#footer hr {display:none;}
+#footer p {margin:0;}
+#footer a {color:#fff;}
+
+
+/* Feeds
+----------------------------------------------- */
+#blogfeeds {
+  }
+#postfeeds {
+  padding:0 15px 0;
+  }
+  </style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- Begin #content - Centers all content and provides edges for floated columns -->
+
+<div id="content">
+
+
+
+<!-- Blog Header -->
+
+<header class='header-container'>
+  <div class='header-content'>
+    <!-- Left Section: Logo -->
+    <div class='left-section'>
+      <div class='logo-container'>
+        <a href='<$BlogURL$>'>
+          <img alt='<$BlogTitle$>' class='header-image logo' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIUKhVUEXOe1hv5OYyuvbeANUSVocaTbqZl7iAUPCgR_kRcD1cwZoWxTVi0Je1ynDNEVqC5_6jJR757huyTLZ8m7IwMqY8VIkhQJBETeuL11xOXeCUTBqglkAnAcFHWoi6jlD2NotF2F4JRg3Pcdb-f91fgRb6uO9yzizxts-mX29KXqoAnLj7B8oF_qTz/s320/image%20(2).png'/>
+        </a>
+      </div>
+    </div>
+
+    <!-- Center Section: Search Bar -->
+    <div class='center-section'>
+      <div class='search-bar'>
+        <form action='/search' method='get' role='search'>
+          <input name='q' placeholder='Search...' type='search'/>
+          <button class='search-bar-submit'>
+            <span class='material-symbols-rounded'>search</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Right Section: Hamburger Menu -->
+    <div class='right-section'>
+      <div class='menu-toggle'>
+        <button id='hamburger-menu'>
+          <span class='material-symbols-rounded'>menu</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Menu (Hidden by default) -->
+  <nav class='nav-menu' id='nav-menu'>
+    <ul>
+      <li><a href='<$BlogURL$>'>Home</a></li>
+      <b:loop values='data:pages' var='page'>
+        <li><a expr:href='data:page.url'><data:page.title/></a></li>
+      </b:loop>
+    </ul>
+  </nav>
+</header>
+
+
+
+
+<!-- Begin #main - Contains main-column blog content -->
+<div id="main"><div id="main2"><div id="main3">
+
+<style type='text/css'>
+  .featured-post {
+    width: 100%;
+    height: 474px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .featured-image {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .featured-content {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .featured-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .featured-snippet {
+    font-size: 16px;
+    line-height: 1.5;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  .featured-readmore {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Popular Posts styles */
+  #popular-posts {
+    margin-top: 20px;
+  }
+  #popular-posts h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #popular-posts ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #popular-posts li {
+    width: calc(25% - 15px);
+    margin-bottom: 20px;
+  }
+  #popular-posts .item-thumbnail img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  #popular-posts .item-title {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Pagination styles */
+  .blog-pager {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .blog-pager a {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+  }
+  .blog-pager a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+</style>
+
+<!-- Featured Post (Latest Post) -->
+<BloggerPosts>
+  <BlogPostPage>
+    <div class="featured-post">
+      <div class="featured-image" style="background-image: url('<$BlogItemCommentCreate$>');"></div>
+      <div class="featured-content">
+        <div>
+          <h2 class="featured-title"><$BlogItemTitle$></h2>
+          <p class="featured-snippet"><$BlogItemBody summarize="300"$></p>
+        </div>
+        <a href="<$BlogItemPermalinkURL$>" class="featured-readmore">Read More</a>
+      </div>
+    </div>
+  </BlogPostPage>
+</BloggerPosts>
+
+<!-- Popular Posts Section -->
+<div id="popular-posts"></div>
+
+<!-- Rest of your blog posts -->
+<BloggerPosts>
+  <BlogDateHeader>
+    <h2 class="date-header"><$BlogDateHeaderDate$></h2>
+  </BlogDateHeader>
+  
+  <BlogPostPage>
+    <!-- Begin .post -->
+    <div class="post">
+      <a name="<$BlogItemNumber$>"></a>
+      <h3 class="post-title">
+        <a href="<$BlogItemUrl$>"><$BlogItemTitle$></a>
+      </h3>
+      <div class="post-body">
+        <p><$BlogItemBody$></p>
+      </div>
+      <p class="post-footer">
+        <em>posted by <$BlogItemAuthorNickname$> at <$BlogItemDateTime$></em>
+        <a class="comment-link" href="<$BlogItemCommentCreate$>"<$BlogItemCommentFormOnclick$>><span style="text-transform:lowercase"><$I18NNumComments$></span></a>
+        <$BlogItemControl$>
+      </p>
+    </div>
+    <!-- End .post -->
+  </BlogPostPage>
+</BloggerPosts>
+
+<!-- Pagination -->
+<div class="blog-pager">
+  <$BlogPreviousPageLink$>
+  <$BlogNextPageLink$>
+</div>
+
+<!-- Begin #comments -->
+<BlogItemPage>
+  <div id="comments">
+    <BlogItemCommentsEnabled><a name="comments"></a>
+      <h4><$I18NNumComments$>:</h4>
+      <dl id="comments-block">
+        <BlogComments>
+          <dt class="comment-data" id="<$BlogCommentAnchorName$>"><a name="<$BlogCommentAnchorName$>"></a>
+            <$I18NAtCommentTimeWithPermalink$>,
+            <$I18NCommentAuthorSaid$>
+          </dt>
+          <dd class="comment-body">
+            <p><$BlogCommentBody$></p>
+            <$BlogCommentDeleteIcon$>
+          </dd>
+        </BlogComments>
+      </dl>
+      <p class="comment-timestamp">
+        <$BlogItemCreate$>
+      </p>
+      <p id="postfeeds"><$BlogItemFeedLinks$></p>
+    </BlogItemCommentsEnabled>    
+    <p style="padding-left:20px;">
+      <a href="<$BlogURL$>">&lt;&lt; <$I18NHome$></a>
+    </p>
+  </div>
+</BlogItemPage>
+<!-- End #comments -->
+
+</div></div></div>
+<!-- End #main -->
+
+
+
+
+
+
+<!-- Begin #sidebar -->
+
+<div id="sidebar">
+
+    <!-- Begin #profile-container -->
+
+   <$BlogMemberProfile$>
+
+  <!-- End #profile -->
+
+
+
+    <!-- Begin .box -->
+
+  <div class="box"><div class="box2"><div class="box3">
+    
+        <MainOrArchivePage>
+  <h2 class="sidebar-title"><$I18NLinks$></h2>
+    <ul>
+    <li><a href="https://news.google.com/">Google News</a></li>
+    <li><a href="https://support.google.com/blogger/answer/41427">Edit-Me</a></li>
+    <li><a href="https://support.google.com/blogger/answer/41427">Edit-Me</a></li>
+  </ul>
+  </MainOrArchivePage>
+
+      <h2 class="sidebar-title"><$I18NPreviousPosts$></h2>
+    <ul id="recently">
+    <BloggerPreviousItems>
+        <li><a href="<$BlogItemPermalinkURL$>"><$BlogPreviousItemTitle$></a></li>
+     </BloggerPreviousItems>
+  </ul>
+
+    <MainOrArchivePage>
+  <h2 class="sidebar-title"><$I18NArchives$></h2>
+    <ul class="archive-list">
+     <BloggerArchives>
+    <li><a href="<$BlogArchiveURL$>"><$BlogArchiveName$></a></li>
+  </BloggerArchives>
+      <ArchivePage><li><a href="<$BlogURL$>"><$I18NCurrentPosts$></a></li></ArchivePage>
+
+  </ul>
+  </MainOrArchivePage>
+      <p id="powered-by"><a href="https://www.blogger.com"><img src="//buttons.blogger.com/bloggerbutton1.gif" alt="Powered by Blogger" /></a></p>
+      <p id="blogfeeds"><$BlogFeedsVertical$></p>
+
+        <!--
+
+    <p>This is a paragraph of text that could go in the sidebar.</p>
+
+    -->
+
+    </div></div></div>
+
+  <!-- End .box -->
+
+
+
+
+</div>
+
+<!-- End #sidebar -->
+
+
+
+
+
+
+
+
+
+<!-- Begin #footer -->
+
+<div id="footer"><div><div><hr />
+
+
+
+  <p><!-- This is an optional footer. If you want text here, place it inside these tags, and remove this comment. -->&nbsp;</p>
+
+
+
+</div></div></div>
+
+<!-- End #footer -->
+
+
+
+
+
+
+
+
+</div>
+
+<!-- End #content -->
+
+
+<script type="text/javascript">
+//<![CDATA[
+function getPopularPosts(json) {
+  var popularPosts = '';
+  for (var i = 0; i < json.feed.entry.length && i < 4; i++) {
+    var entry = json.feed.entry[i];
+    var postTitle = entry.title.$t;
+    var postUrl;
+    for (var k = 0; k < entry.link.length; k++) {
+      if (entry.link[k].rel == 'alternate') {
+        postUrl = entry.link[k].href;
+        break;
+      }
+    }
+    var postThumbnail = "https://lh3.googleusercontent.com/-zFdxYk-oMRQ/VVVYFhKl4BI/AAAAAAAACVs/DAaMCXNNpwg/w72-h72-p-k-no-nu/nothumb.png";
+    if ("media$thumbnail" in entry) {
+      postThumbnail = entry.media$thumbnail.url;
+    }
+    
+    popularPosts += '<li>';
+    popularPosts += '<div class="item-thumbnail"><a href="' + postUrl + '"><img alt="" src="' + postThumbnail + '"/></a></div>';
+    popularPosts += '<div class="item-title"><a href="' + postUrl + '">' + postTitle + '</a></div>';
+    popularPosts += '</li>';
+  }
+  document.getElementById('popular-posts').innerHTML = '<h2>Popular Posts</h2><ul>' + popularPosts + '</ul>';
+}
+//]]>
+</script>
+<script type="text/javascript" src="https://www.yourblog.blogspot.com/feeds/posts/default?orderby=popularity&alt=json-in-script&max-results=4&callback=getPopularPosts"></script>
+
+
+</body>
+
+</html>
